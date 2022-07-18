@@ -4,6 +4,7 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.util.*;
+
 public class App {
     public static void main(String[] args) throws IOException, InterruptedException {
 
@@ -14,13 +15,17 @@ public class App {
         var request = HttpRequest.newBuilder(endereco).GET().build();
         var response = client.send(request, HttpResponse.BodyHandlers.ofString());
         String body = response.body();
-        System.out.println(body);
 
         //pegar só os dados que interessam (título, poster, classificação)
         var parser = new JsonParser();
-        List<Map<String,String>> listaDeFilmes = parser.parse(body);
+        List<Map<String, String>> listaDeFilmes = parser.parse(body);
 
         //exibir e manipular os dados
-
+        for (Map<String, String> filme : listaDeFilmes) {
+            System.out.println("Titulo: " + filme.get("title"));
+            System.out.println("Imagem: " + filme.get("image"));
+            System.out.println("Nota: " + filme.get("imDbRating"));
+            System.out.println();
+        }
     }
 }
