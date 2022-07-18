@@ -3,7 +3,7 @@ import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
-
+import java.util.*;
 public class App {
     public static void main(String[] args) throws IOException, InterruptedException {
 
@@ -17,6 +17,10 @@ public class App {
         System.out.println(body);
 
         //pegar só os dados que interessam (título, poster, classificação)
+        var parser = new JsonParser();
+        List<Map<String,String>> listaDeFilmes = parser.parse(body);
+
         //exibir e manipular os dados
+
     }
 }
