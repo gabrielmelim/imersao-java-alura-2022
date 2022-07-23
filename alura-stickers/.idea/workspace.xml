@@ -2,20 +2,277 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9d95b43-507e-4a18-9d76-1bf01b034dab" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExtratorDeConteudoImdb.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/alura-stickers/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/alura-stickers/JsonParser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/alura-stickers/GeradoraDeFigurinhas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/12 Angry Men ImdbNota - 8.9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/12 Years a Slave ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/1917 ImdbNota - 8.2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/2001 A Space Odyssey ImdbNota - 8.3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/3 Idiots ImdbNota - 8.3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/A Beautiful Mind ImdbNota - 8.2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/A Clockwork Orange ImdbNota - 8.2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/A Separation ImdbNota - 8.2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Aladdin ImdbNota - 8.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Alien ImdbNota - 8.4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Aliens ImdbNota - 8.3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/All About Eve ImdbNota - 8.2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Amadeus ImdbNota - 8.3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/American Beauty ImdbNota - 8.3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/American History X ImdbNota - 8.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Amores perros ImdbNota - 8.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Amélie ImdbNota - 8.2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Apocalypse Now ImdbNota - 8.4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Avengers Endgame ImdbNota - 8.3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Avengers Infinity War ImdbNota - 8.4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Back to the Future ImdbNota - 8.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Barry Lyndon ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Batman Begins ImdbNota - 8.2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Beauty and the Beast ImdbNota - 8.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Before Sunrise ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Before Sunset ImdbNota - 8.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Ben-Hur ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Bicycle Thieves ImdbNota - 8.2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Blade Runner ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Braveheart ImdbNota - 8.3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Capernaum ImdbNota - 8.3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Casablanca ImdbNota - 8.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Casino ImdbNota - 8.2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Catch Me If You Can ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Children of Heaven ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Chinatown ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Cinema Paradiso ImdbNota - 8.4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Citizen Kane ImdbNota - 8.3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/City Lights ImdbNota - 8.4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/City of God ImdbNota - 8.6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Coco ImdbNota - 8.3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Come and See ImdbNota - 8.2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Cool Hand Luke ImdbNota - 8.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Dances with Wolves ImdbNota - 8.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Dangal ImdbNota - 8.2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Dead Poets Society ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Dersu Uzala ImdbNota - 8.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Dial M for Murder ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Die Hard ImdbNota - 8.2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Django Unchained ImdbNota - 8.4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Double Indemnity ImdbNota - 8.2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Downfall ImdbNota - 8.2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Dr. Strangelove or How I Learned to Stop Worrying and Love the Bomb ImdbNota - 8.3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Eternal Sunshine of the Spotless Mind ImdbNota - 8.3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Everything Everywhere All at Once ImdbNota - 8.3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Fargo ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Fight Club ImdbNota - 8.8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Finding Nemo ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/For a Few Dollars More ImdbNota - 8.2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Ford v Ferrari ImdbNota - 8.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Forrest Gump ImdbNota - 8.8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Full Metal Jacket ImdbNota - 8.2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Gandhi ImdbNota - 8.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Gladiator ImdbNota - 8.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Gone Girl ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Gone with the Wind ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Good Will Hunting ImdbNota - 8.3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Goodfellas ImdbNota - 8.7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Gran Torino ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Green Book ImdbNota - 8.2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Groundhog Day ImdbNota - 8.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Hachi A Dog's Tale ImdbNota - 8.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Hacksaw Ridge ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Hamilton ImdbNota - 8.2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Hara-Kiri ImdbNota - 8.4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Harry Potter and the Deathly Hallows Part 2 ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Heat ImdbNota - 8.2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/High and Low ImdbNota - 8.3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Hotel Rwanda ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/How to Train Your Dragon ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Howl's Moving Castle ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Ikiru ImdbNota - 8.2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/In the Name of the Father ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Incendies ImdbNota - 8.2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Inception ImdbNota - 8.7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Indiana Jones and the Last Crusade ImdbNota - 8.2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Indiana Jones and the Raiders of the Lost Ark ImdbNota - 8.4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Inglourious Basterds ImdbNota - 8.3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Inside Out ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Interstellar ImdbNota - 8.6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Into the Wild ImdbNota - 8.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/It Happened One Night ImdbNota - 8.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/It's a Wonderful Life ImdbNota - 8.6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Jai Bhim ImdbNota - 8.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Jaws ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Joker ImdbNota - 8.3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Judgment at Nuremberg ImdbNota - 8.2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Jurassic Park ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Kill Bill Vol. 1 ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Klaus ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/L.A. Confidential ImdbNota - 8.2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/La Haine ImdbNota - 8.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Lawrence of Arabia ImdbNota - 8.3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Life Is Beautiful ImdbNota - 8.6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Life of Brian ImdbNota - 8.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Like Stars on Earth ImdbNota - 8.2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Lock, Stock and Two Smoking Barrels ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Logan ImdbNota - 8.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Léon The Professional ImdbNota - 8.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/M ImdbNota - 8.3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Mad Max Fury Road ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Mary and Max ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Memento ImdbNota - 8.4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Memories of Murder ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Metropolis ImdbNota - 8.2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Million Dollar Baby ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Modern Times ImdbNota - 8.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Monsters, Inc. ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Monty Python and the Holy Grail ImdbNota - 8.2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Mr. Smith Goes to Washington ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/My Father and My Son ImdbNota - 8.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/My Neighbor Totoro ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Network ImdbNota - 8.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/No Country for Old Men ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/North by Northwest ImdbNota - 8.3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Oldboy ImdbNota - 8.3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/On the Waterfront ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Once Upon a Time in America ImdbNota - 8.3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Once Upon a Time in the West ImdbNota - 8.4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/One Flew Over the Cuckoo's Nest ImdbNota - 8.6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Pan's Labyrinth ImdbNota - 8.2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Parasite ImdbNota - 8.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Pather Panchali ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Paths of Glory ImdbNota - 8.4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Persona ImdbNota - 8.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Pirates of the Caribbean The Curse of the Black Pearl ImdbNota - 8.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Platoon ImdbNota - 8.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Princess Mononoke ImdbNota - 8.3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Prisoners ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Psycho ImdbNota - 8.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Pulp Fiction ImdbNota - 8.9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Raging Bull ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Ran ImdbNota - 8.2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Rashomon ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Ratatouille ImdbNota - 8.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Rear Window ImdbNota - 8.4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Rebecca ImdbNota - 8.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Requiem for a Dream ImdbNota - 8.3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Reservoir Dogs ImdbNota - 8.3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Rocky ImdbNota - 8.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Room ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Rush ImdbNota - 8.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Saving Private Ryan ImdbNota - 8.6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Scarface ImdbNota - 8.2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Schindler's List ImdbNota - 8.9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Se7en ImdbNota - 8.6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Seven Samurai ImdbNota - 8.6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Sherlock Jr. ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Shutter Island ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Singin' in the Rain ImdbNota - 8.3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Snatch ImdbNota - 8.2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Some Like It Hot ImdbNota - 8.2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Spider-Man Into the Spider-Verse ImdbNota - 8.3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Spider-Man No Way Home ImdbNota - 8.2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Spirited Away ImdbNota - 8.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Spotlight ImdbNota - 8.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Stand by Me ImdbNota - 8.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Star Wars Episode V - The Empire Strikes Back ImdbNota - 8.7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Star Wars Episode VI - Return of the Jedi ImdbNota - 8.3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Star Wars ImdbNota - 8.6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Sunset Blvd. ImdbNota - 8.4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Taxi Driver ImdbNota - 8.2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Terminator 2 Judgment Day ImdbNota - 8.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/The 400 Blows ImdbNota - 8.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/The Apartment ImdbNota - 8.2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/The Battle of Algiers ImdbNota - 8.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/The Best Years of Our Lives ImdbNota - 8.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/The Big Lebowski ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/The Boat ImdbNota - 8.3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/The Bridge on the River Kwai ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/The Dark Knight ImdbNota - 9.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/The Dark Knight Rises ImdbNota - 8.3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/The Deer Hunter ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/The Departed ImdbNota - 8.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/The Elephant Man ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/The Exorcist ImdbNota - 8.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/The Father ImdbNota - 8.2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/The General ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/The Godfather ImdbNota - 9.2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/The Godfather Part II ImdbNota - 9.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/The Gold Rush ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/The Good, the Bad and the Ugly ImdbNota - 8.8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/The Grand Budapest Hotel ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/The Grapes of Wrath ImdbNota - 8.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/The Great Dictator ImdbNota - 8.4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/The Great Escape ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/The Green Mile ImdbNota - 8.6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/The Handmaiden ImdbNota - 8.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/The Help ImdbNota - 8.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/The Hunt ImdbNota - 8.3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/The Incredibles ImdbNota - 8.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/The Intouchables ImdbNota - 8.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/The Kid ImdbNota - 8.2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/The Lion King ImdbNota - 8.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/The Lives of Others ImdbNota - 8.4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/The Lord of the Rings The Fellowship of the Ring ImdbNota - 8.8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/The Lord of the Rings The Return of the King ImdbNota - 8.9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/The Lord of the Rings The Two Towers ImdbNota - 8.7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/The Matrix ImdbNota - 8.7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/The Passion of Joan of Arc ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/The Pianist ImdbNota - 8.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/The Prestige ImdbNota - 8.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/The Secret in Their Eyes ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/The Shawshank Redemption ImdbNota - 9.2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/The Shining ImdbNota - 8.4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/The Silence of the Lambs ImdbNota - 8.6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/The Sixth Sense ImdbNota - 8.2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/The Sound of Music ImdbNota - 8.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/The Sting ImdbNota - 8.2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/The Terminator ImdbNota - 8.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/The Thing ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/The Third Man ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/The Treasure of the Sierra Madre ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/The Truman Show ImdbNota - 8.2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/The Usual Suspects ImdbNota - 8.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/The Wages of Fear ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/The Wizard of Oz ImdbNota - 8.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/The Wolf of Wall Street ImdbNota - 8.2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/There Will Be Blood ImdbNota - 8.2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Three Billboards Outside Ebbing, Missouri ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/To Be or Not to Be ImdbNota - 8.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/To Kill a Mockingbird ImdbNota - 8.2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Tokyo Story ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Toy Story ImdbNota - 8.3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Trainspotting ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Unforgiven ImdbNota - 8.2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Up ImdbNota - 8.2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/V for Vendetta ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Vertigo ImdbNota - 8.2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/WALL·E ImdbNota - 8.4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Warrior ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Whiplash ImdbNota - 8.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Wild Strawberries ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Wild Tales ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Witness for the Prosecution ImdbNota - 8.4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Yojimbo ImdbNota - 8.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Your Name. ImdbNota - 8.3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppImdb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GeradoraDeFigurinhas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GeradoraDeFigurinhasImdb.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -24,7 +281,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2CGdFOhaWtVLB1D8lrTI1c2cMoy" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -37,13 +296,27 @@
     &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="App" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.AppImdb">
+    <configuration name="AppImdb" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AppImdb" />
+      <module name="alura-stickers" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppNasa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AppNasa" />
       <module name="alura-stickers" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -51,7 +324,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
+        <item itemvalue="Application.AppImdb" />
+        <item itemvalue="Application.AppNasa" />
       </list>
     </recent_temporary>
   </component>
@@ -64,12 +338,24 @@
       <option name="presentableId" value="Default" />
       <updated>1658432755516</updated>
       <workItem from="1658432758718" duration="11562000" />
-      <workItem from="1658495516539" duration="152000" />
+      <workItem from="1658495516539" duration="20058000" />
+      <workItem from="1658539359266" duration="1248000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
