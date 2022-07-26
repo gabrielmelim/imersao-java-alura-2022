@@ -22,6 +22,7 @@ public class AppImdb {
         var geradora = new GeradoraDeFigurinhasImdb();
 
 
+
         for (int i = 0; i < 250; i++) {
             try{
                 Conteudo conteudo = conteudos.get(i);

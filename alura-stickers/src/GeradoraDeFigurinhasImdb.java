@@ -29,13 +29,15 @@ public class GeradoraDeFigurinhasImdb {
         // new URL("https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@.jpg")
         // .openStream();
         BufferedImage imagemOriginal = ImageIO.read(inputStream);
-        imagemOriginal = resize(imagemOriginal, 400, 600);
+
 
         // cria nova imagem em memória com transparência e com tamanho novo
         int largura = imagemOriginal.getWidth();
         int altura = imagemOriginal.getHeight();
         int novaAltura = altura + 150;
         BufferedImage novaImagem = new BufferedImage(largura, novaAltura, BufferedImage.TRANSLUCENT);
+
+        imagemOriginal = resize(imagemOriginal, 400, 600);
 
         // copiar a imagem original pra novo imagem (em memória)
         Graphics2D graphics = (Graphics2D) novaImagem.getGraphics();

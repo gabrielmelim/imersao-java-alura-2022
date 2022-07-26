@@ -31,9 +31,8 @@ public class AppNasa {
             var date = conteudo.getInformacao();
             geradora.cria(inputStream, nomeArquivo,date);
             System.out.println("nome do arquivo" + nomeArquivo);
+            System.out.println();
 
-
-            System.out.println("nome do arquivo: " + nomeArquivo);
         }
     }
 }
