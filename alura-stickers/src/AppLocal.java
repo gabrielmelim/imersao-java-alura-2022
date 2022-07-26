@@ -8,7 +8,7 @@ public class AppLocal {
     public static void main(String[] args) throws Exception {
 
         // fazer uma conexão HTTP e buscar as Imagens da NASA
-        String url = "http://localhost:8080/linguagens"; // API NASA ALURA
+        String url = "https://alura-linguagens-api-melim.herokuapp.com/linguagens"; // API MELIM
         var http = new ClienteHttp();
         String json = http.buscaDados(url);
 
@@ -24,14 +24,14 @@ public class AppLocal {
 
         // buscar conteudo dentro do laço
         var geradora = new GeradoraDeFigurinhasLocal();
-        for (int i = 0; i < 2; i++) {
+        for (int i = 0; i < listaDeConteudos.size(); i++) {
             Conteudo conteudo = conteudos.get(i);
             InputStream inputStream = new URL(conteudo.getUrlImagem()).openStream();
             String nomeArquivo = conteudo.getTitulo() + " ranking - " + conteudo.getInformacao() + ".png";
 
             int ranking = Integer.parseInt(conteudo.getInformacao());
             geradora.cria(inputStream, nomeArquivo, ranking);
-            System.out.println("nome do arquivo" + nomeArquivo);
+            System.out.println("nome do arquivo: " + nomeArquivo);
             System.out.println();
         }
     }
