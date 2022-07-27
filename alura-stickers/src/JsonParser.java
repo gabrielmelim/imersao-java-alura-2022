@@ -14,7 +14,8 @@ public class JsonParser {
 
     public List<Map<String, String>> parse(String json) {
         //Injetar valor json
-        //json = "[{'title':'Java','image':'https://raw.githubusercontent.com/abrahamcalf/programming-languages-logos/master/src/java/java_256x256.png','ranking':'1'},{'title':'Php','image':'https://raw.githubusercontent.com/abrahamcalf/programming-languages-logos/master/src/php/php_256x256.png','ranking':'2'}]";
+        //json = "[" + json + "]";
+        //json ="[" + json.substring(0,60) + "}]";
         Matcher matcher = REGEX_ITEMS.matcher(json);
         if (!matcher.find()) {
 

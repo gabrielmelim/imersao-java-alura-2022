@@ -9,8 +9,12 @@ public class AppNasa {
 
         // fazer uma conexão HTTP e buscar as Imagens da NASA
         String url = "https://api.nasa.gov/planetary/apod?api_key=SE8gdyRy8mayLKBv5Wkin4f0lN8gbdoSd2QB6kCK"; // API NASA ALURA
+        //String url = "https://alura-linguagens-api-melim.herokuapp.com/linguagens";
         var http = new ClienteHttp();
         String json = http.buscaDados(url);
+
+        json = json.substring(0,json.length() -1);
+        json = "[" + json + "]";
 
         // extrair só os dados que interessam (titulo, poster, classificação)
         var parser = new JsonParser();
