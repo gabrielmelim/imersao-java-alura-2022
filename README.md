@@ -56,6 +56,7 @@ https://github.com/gabrielmelim/imersao-java-alura-2022/tree/deploy
 -Ao filtrar a lista json da imdb com 250 filmes, tivemos alguns problemas, pois alguns filmes da lista json tinha imagem quebrada, então utilizamos a tratativa try catch para ignorar os filmes da lista cujo a imagem estivesse com formato errado ou indisponível, assim conseguimos rodar a lista com os 250 filmes e retornar 249 pois algum filme da lista estava com a imagem quebrada.
 
 ![Aula03jpg](https://raw.githubusercontent.com/gabrielmelim/imgs/main/imersao-alura-2022/aula3-imdb-horz.jpg)
+<<<<<<< HEAD
 
 
 </div>
@@ -102,3 +103,5 @@ https://github.com/gabrielmelim/imersao-java-alura-2022/tree/deploy
   <a href="https://www.linkedin.com/in/gabrielmelim/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
 </div
 
+=======
+>>>>>>> 99528f4ba1b45ea8b54c437fb3bca4126cea6a22
