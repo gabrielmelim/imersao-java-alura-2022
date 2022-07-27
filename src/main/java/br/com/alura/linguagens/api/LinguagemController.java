@@ -7,7 +7,9 @@ import java.util.List;
 import java.util.Optional;
 
 
+
 @RestController
+@CrossOrigin(origins = {"http://192.168.1.3/"}, allowedHeaders="Access-Control-Allow-Origin")
 public class LinguagemController {
 
     @Autowired
@@ -28,29 +30,28 @@ public class LinguagemController {
             );*/
 
 
-
     //CRUD
 
     @GetMapping("/linguagens")
-    public List<Linguagem> obterLinguagens(){
+    public List<Linguagem> obterLinguagens() {
         List<Linguagem> linguagens = repositorio.findAll();
         return linguagens;
     }
 
     @GetMapping("/{id}")
-    public Optional<Linguagem> obterLinguagensId(@PathVariable String id){
+    public Optional<Linguagem> obterLinguagensId(@PathVariable String id) {
         Optional<Linguagem> linguagens = repositorio.findById(id);
         return linguagens;
     }
 
     @PostMapping("/linguagens")
-    public Linguagem cadastrarLinguagem(@RequestBody Linguagem linguagem){
-       Linguagem linguagemSalva = repositorio.save(linguagem);
-       return linguagemSalva;
+    public Linguagem cadastrarLinguagem(@RequestBody Linguagem linguagem) {
+        Linguagem linguagemSalva = repositorio.save(linguagem);
+        return linguagemSalva;
     }
 
     @PutMapping("/linguagens")
-    public Linguagem alterarLinguagem(@RequestBody Linguagem linguagem){
+    public Linguagem alterarLinguagem(@RequestBody Linguagem linguagem) {
         Linguagem linguagemSalva = repositorio.save(linguagem);
         return linguagemSalva;
     }
