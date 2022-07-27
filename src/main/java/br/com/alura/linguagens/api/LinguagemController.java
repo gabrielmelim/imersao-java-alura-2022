@@ -9,7 +9,7 @@ import java.util.Optional;
 
 
 @RestController
-@CrossOrigin(origins = {"http://192.168.1.3/"}, allowedHeaders="Access-Control-Allow-Origin")
+@CrossOrigin(origins = {"http://192.168.1.3:80"}, allowedHeaders = "Access-Control-Allow-Origin")
 public class LinguagemController {
 
     @Autowired
