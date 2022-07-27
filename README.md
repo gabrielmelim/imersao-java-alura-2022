@@ -91,7 +91,7 @@ https://github.com/gabrielmelim/imersao-java-alura-2022/tree/deploy
 - Preparei o projeto para deploy.</br>
 - Deploy realizado com sucesso (https://alura-linguagens-api-melim.herokuapp.com/linguagens).</br>
 
-## Aula 06
+## Bônus
 
 - Implementação futura: Implementar segurança a nossa api utilizando spring security.
 
