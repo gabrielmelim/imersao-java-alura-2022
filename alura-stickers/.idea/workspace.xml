@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9d95b43-507e-4a18-9d76-1bf01b034dab" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/alura-stickers/AppImdb.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/alura-stickers/AppImdb.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/alura-stickers/AppLocal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/alura-stickers/AppLocal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saida/Find the Man in the Moon date - 2022-06-12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saida/M51 The Whirlpool Galaxy from Hubble date - 2022-06-13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saida/Satellites Behind Pinnacles date - 2022-06-14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppLocal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppLocal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Java ranking - 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/Php ranking - 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppImdb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppImdb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppNasa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppNasa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExtratorDeConteudoLocal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExtratorDeConteudoLocal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GeradoraDeFigurinhasImdb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GeradoraDeFigurinhasImdb.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,20 +44,20 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "go.import.settings.migrated": "true",
-    "last_opened_file_path": "C:/Users/gabri/OneDrive/Área de Trabalho/Repositórios/imersao-java-alura-2022/alura-stickers",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/gabri/OneDrive/Área de Trabalho/Repositórios/imersao-java-alura-2022/alura-stickers&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
@@ -104,6 +108,8 @@
       <workItem from="1658771946181" duration="8764000" />
       <workItem from="1658785551189" duration="1811000" />
       <workItem from="1658877075938" duration="2328000" />
+      <workItem from="1658881806946" duration="383000" />
+      <workItem from="1658929333682" duration="4603000" />
     </task>
     <servers />
   </component>
@@ -130,6 +136,10 @@
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.net.MalformedURLException" package="java.net" />
           <option name="timeStamp" value="7" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalArgumentException" package="java.lang" />
+          <option name="timeStamp" value="8" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>

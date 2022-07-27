@@ -4,8 +4,6 @@ import java.util.Map;
 
 public class ExtratorDeConteudoLocal implements ExtratorDeConteudo {
 
-
-
     public List<Conteudo> extraiConteudo(String json) {
         // extrair só os dados que interessam (titulo, poster, classificação)
         var parser = new JsonParser();
@@ -24,10 +22,8 @@ public class ExtratorDeConteudoLocal implements ExtratorDeConteudo {
             //System.out.println("Hocket e cabeça dura e nao ouve:" + informacaoIntTeste);
             var conteudo = new Conteudo(titulo, urlImagem, informacao);
 
-
             conteudos.add(conteudo);
         }
-
         return conteudos;
     }
 }

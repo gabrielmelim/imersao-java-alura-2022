@@ -8,7 +8,7 @@ public class AppNasa {
     public static void main(String[] args) throws Exception {
 
         // fazer uma conexão HTTP e buscar as Imagens da NASA
-        String url = "https://raw.githubusercontent.com/alura-cursos/imersao-java/api/NASA-APOD.json"; // API NASA ALURA
+        String url = "https://api.nasa.gov/planetary/apod?api_key=SE8gdyRy8mayLKBv5Wkin4f0lN8gbdoSd2QB6kCK"; // API NASA ALURA
         var http = new ClienteHttp();
         String json = http.buscaDados(url);
 
@@ -23,7 +23,7 @@ public class AppNasa {
 
         // buscar conteudo dentro do laço ( total 250 conteudos )
         var geradora = new GeradoraDeFigurinhasNasa();
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < listaDeConteudos.size(); i++) {
             Conteudo conteudo = conteudos.get(i);
             InputStream inputStream = new URL(conteudo.getUrlImagem()).openStream();
             String nomeArquivo = conteudo.getTitulo() + " date - " + conteudo.getInformacao() + ".png";

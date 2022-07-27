@@ -9,7 +9,7 @@ public class AppImdb {
 
         // fazer uma conexão HTTP e buscar os top 250 filmes
         //String url = "https://imdb-api.com/en/API/Top250Movies/k_0ojt0yvm"; //API IMDB TOP250 FILMES
-        String url = "https://alura-imdb-api.herokuapp.com/movies"; // API IMBD TOP250 FILMES ALURA
+        String url = "https://mocki.io/v1/9a7c1ca9-29b4-4eb3-8306-1adb9d159060"; // API IMBD TOP250 FILMES ALURA
         var http = new ClienteHttp();
         String json = http.buscaDados(url);
 
