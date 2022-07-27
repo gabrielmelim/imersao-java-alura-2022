@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9d95b43-507e-4a18-9d76-1bf01b034dab" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/alura-stickers/AppImdb.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/alura-stickers/AppImdb.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/alura-stickers/AppLocal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/alura-stickers/AppLocal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saida/Java ranking - 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saida/Php ranking - 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppImdb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppImdb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppNasa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppNasa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExtratorDeConteudoLocal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExtratorDeConteudoLocal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GeradoraDeFigurinhasImdb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GeradoraDeFigurinhasImdb.java" afterDir="false" />
-    </list>
+    <list default="true" id="d9d95b43-507e-4a18-9d76-1bf01b034dab" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -109,7 +98,7 @@
       <workItem from="1658785551189" duration="1811000" />
       <workItem from="1658877075938" duration="2328000" />
       <workItem from="1658881806946" duration="383000" />
-      <workItem from="1658929333682" duration="4603000" />
+      <workItem from="1658929333682" duration="4709000" />
     </task>
     <servers />
   </component>
