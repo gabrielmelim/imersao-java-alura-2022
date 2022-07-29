@@ -1,38 +1,23 @@
-package br.com.alura.linguagens.api;
+package br.com.alura.linguagens.api.controller;
 
+import br.com.alura.linguagens.api.model.Linguagem;
+import br.com.alura.linguagens.api.repository.LinguagemRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 import java.util.Optional;
 
-
-
 @RestController
-@CrossOrigin(origins = {"http://192.168.1.3:80"}, allowedHeaders = "Access-Control-Allow-Origin")
+@RequestMapping("/linguagens")
 public class LinguagemController {
 
     @Autowired
     private LinguagemRepository repositorio;
 
 
-    // rodar aplicação em máquina local
-   /* private List<Linguagem> linguagens =
-            List.of(
-                    new Linguagem(
-                            "Java",
-                            "https://raw.githubusercontent.com/abrahamcalf/programming-languages-logos/master/src/java/java_256x256.png",
-                            1),
-                    new Linguagem(
-                            "Php",
-                            "https://raw.githubusercontent.com/abrahamcalf/programming-languages-logos/master/src/php/php_256x256.png",
-                            2)
-            );*/
-
-
     //CRUD
-
-    @GetMapping("/linguagens")
+    @GetMapping
     public List<Linguagem> obterLinguagens() {
         List<Linguagem> linguagens = repositorio.findAll();
         return linguagens;
@@ -44,13 +29,13 @@ public class LinguagemController {
         return linguagens;
     }
 
-    @PostMapping("/linguagens")
+    @PostMapping
     public Linguagem cadastrarLinguagem(@RequestBody Linguagem linguagem) {
         Linguagem linguagemSalva = repositorio.save(linguagem);
         return linguagemSalva;
     }
 
-    @PutMapping("/linguagens")
+    @PutMapping
     public Linguagem alterarLinguagem(@RequestBody Linguagem linguagem) {
         Linguagem linguagemSalva = repositorio.save(linguagem);
         return linguagemSalva;
@@ -60,5 +45,6 @@ public class LinguagemController {
     public void delete(@PathVariable String id) {
         repositorio.deleteById(id);
     }
+
 
 }
