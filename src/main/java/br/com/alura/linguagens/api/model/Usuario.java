@@ -6,28 +6,25 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 @Document(collection = "users")
 public class Usuario {
+
     @Id
     String id;
 
-    @Indexed(unique = true)
-    String email;
-    String username;
-    String password;
+   // @Indexed(unique = true)
+   private String username;
+    private String password;
 
     public Usuario() {
-        super();
     }
 
 
     public Usuario(String email, String username, String password) {
-        this.email = email;
         this.username = username;
         this.password = password;
     }
 
     public Usuario(String id, String email, String username, String password) {
         this.id = id;
-        this.email = email;
         this.username = username;
         this.password = password;
     }
@@ -35,18 +32,6 @@ public class Usuario {
 
     public String getId() {
         return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
     }
 
     public String getUsername() {
