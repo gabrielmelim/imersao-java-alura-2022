@@ -1,2 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes:target/*
-web: java $JAVA_OPTS -Djasypt.encryptor.password=2292 -jar target/*.jar
+web: java -Dserver.port=$PORT $JAVA_OPTS -Djasypt.encryptor.password=2292 -jar target/*.jar
