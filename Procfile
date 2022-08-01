@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -Djasypt.encryptor.password=2292 -jar target/linguagens-api-0.0.1-SNAPSHOT.jar
+web: java $JAVA_OPTS -Djasypt.encryptor.password=2292
