@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -Djasypt.encryptor.password=2292
+web: java $JAVA_OPTS -Djasypt.encryptor.password=2292 -jar target/*.jar
