@@ -1,5 +1,6 @@
 package br.com.alura.linguagens.api.security;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
@@ -14,15 +15,16 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 @EnableWebSecurity
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
-
+    @Autowired
+    Extractor password;
 
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
         auth.
                 inMemoryAuthentication()
-                .withUser("admin").password(passwordEncoder().encode("gabriel")).roles("ADMIN")
-                .and()
-                .withUser("nak").password(passwordEncoder().encode("nak123")).roles("USER");
+                .withUser("admin").password(passwordEncoder().encode(password.getProperty())).roles("ADMIN");
+                //.and()
+                //.withUser("nak").password(passwordEncoder().encode("nak123")).roles("USER");
     }
 
     @Override
@@ -35,7 +37,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     }
 
     @Bean
-    PasswordEncoder passwordEncoder(){
+    PasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder();
     }
 }
