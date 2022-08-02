@@ -12,7 +12,7 @@ public class Extractor {
     @Autowired
     public Extractor(@Value("${password}") String property) {
         this.property = property;
-       // System.out.println(property);
+        // System.out.println(property);
     }
 
     public String getProperty() {
