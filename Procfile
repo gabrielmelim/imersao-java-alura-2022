@@ -1,0 +1,1 @@
+web: java $JAVA_OPTS -Djasypt.encryptor.password=2292 -Dserver.port=$PORT -jar target/*.jar
